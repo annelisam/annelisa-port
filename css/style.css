@@ -1,0 +1,90 @@
+
+header, main, footer {
+    padding-left: 300px;
+    color: #373737;
+    font-family: 'PT Mono', monospace;
+    background-color: #E7DFDD;
+}
+  
+@media only screen and (max-width : 992px) {
+   
+    header, main, footer {
+          padding-left: 0;
+        }
+      }
+
+span, p {
+    color: #373737;
+    font-family: 'PT Mono', monospace;
+}
+
+.links a {
+    color: #373737;
+    font-family: 'PT Mono', monospace;
+}
+a {
+    color: #373737;
+    font-family: 'PT Mono', monospace;
+}
+a:hover {
+    color: #D8C2C5;
+}
+
+
+.links a:hover {
+    color: #D8C2C5;
+}
+
+.profile-info{
+    padding-top: 25px;
+}
+
+.profile-info img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100px;
+    height: 100px;
+}
+
+.profile-info img.resize {
+    width: 100px;
+    height: auto;
+}
+
+.profile-info {
+    margin-bottom: 50px;
+}
+
+.profile-info h5 {
+    color: #D8C2C5;
+    font-family: 'PT Mono', monospace;
+}
+
+.profile-nav {
+    background-color: #FCFBFB; 
+}
+
+.fa {
+    color: #373737;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fa:hover {
+    color: #D8C2C5;
+}
+
+.social-icons {
+    margin-top: 50px;
+}
+
+.about {
+    background-color: #E7DFDD;
+    height: 100vh;
+    color: #373737;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #E7DFDD;
+}
