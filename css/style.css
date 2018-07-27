@@ -80,11 +80,10 @@ a:hover {
 
 .about {
     background-color: #E7DFDD;
-    height: 100vh;
     color: #373737;
     padding-top: 50px;
 }
 
-.container {
+div.container, .row {
     background-color: #E7DFDD;
 }
